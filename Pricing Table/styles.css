@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  
+   
+}
+body{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(240, 243, 248);
+
+}
+
+.card{
+    padding-top: 1px;
+}
+
+.starter h1{
+    
+    font-size: 30px;
+
+}
+.card-1 h1{
+    margin-top: 10%;
+
+}
+.pricing-table{
+    height: 50vh;
+    width: 80vw;
+   
+}
+.heading h1{
+    margin-top: 5%;
+    font-size: 40px;
+    margin-bottom: 3%;
+    margin-left: 20%;
+    
+}
+.card-1{
+    height:50vh;
+    width: 25vw;
+    background-color: white;
+    display: center;
+    padding-top: 1%;
+    border-radius: 5px;
+    margin-left: 20%;
+}
+.card-1 h1{
+   margin-left: 10%;
+   
+   
+  
+}
+.builed-yearly{
+    margin-top: 3%;
+    margin-left: 10%;
+    
+
+}
+.card-1 p{
+    margin-left: 10%;
+}
+.footer button{
+    margin-top: 5%;
+    height: 50px;
+    width: 350px;
+    margin-left: 10%;
+    color: white;
+    background-color: black;
+}
+.footer p{
+    margin-top: 5%;
+}
+.card-2{
+    height:50vh;
+    width: 25vw;
+    background-color: white;
+    display: center;
+   
+    border-radius: 5px;
+    float: right;
+}
+.card-column{
+    display: flex;
+    gap: 5%;
+}
+.card-2 h1{
+    margin-left: 10%;
+    
+    
+   
+ }
+ 
+.professional h1{
+    
+    font-size: 30px;
+    
+
+}
+.professional{
+    padding-top: 12%;
+    padding-bottom: 10%;
+}
+.card-2 p{
+    margin-left: 10%;
+    margin-bottom: 3%;
+}
+.card-2 button{
+    margin-top: 3%;
+    height: 50px;
+    width: 350px;
+    margin-left: 10%;
+    color: black;
+    background-color: white;
+}
