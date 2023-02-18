@@ -19,6 +19,7 @@ body{
 .card{
     padding-top: 1px;
     
+    
 }
 
 .starter h1{
@@ -50,6 +51,7 @@ body{
     padding-top: 1%;
     border-radius: 5px;
     margin-left: 20%;
+    box-shadow: -30px 30px 20px rgba(0,0,0,0.3);
 }
 .card-1 h1{
    margin-left: 10%;
@@ -82,7 +84,7 @@ body{
     width: 25vw;
     background-color: white;
     display: center;
-   
+    box-shadow: -30px 30px 20px rgba(0,0,0,0.3);
     border-radius: 5px;
     float: right;
 }
@@ -117,5 +119,5 @@ body{
     width: 350px;
     margin-left: 10%;
     color: black;
-    background-color: black;
+    background-color: white;
 }
