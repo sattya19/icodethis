@@ -84,7 +84,6 @@ body{
     width: 25vw;
     background-color: white;
     display: center;
-    box-shadow: -30px 30px 20px rgba(0,0,0,0.3);
     border-radius: 5px;
     float: right;
 }
