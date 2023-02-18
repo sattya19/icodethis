@@ -88,6 +88,10 @@ body{
     float: right;
     box-shadow: -30px 30px 20px rgba(0,0,0,0.3);
 }
+.card-column{
+    display: flex;
+    gap: 5%;
+}
 
 .card-2 h1{
     margin-left: 10%;
