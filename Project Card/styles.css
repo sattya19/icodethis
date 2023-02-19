@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(28, 34, 86);
+
+    font-family: system-ui;
+    color: rgb(216, 219, 237);
+
+    cursor: default;
+}
+
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 500px;
+    box-shadow: 0px 0px 40px rgb(6, 9, 30);
+    border-radius: 30px;
+   
+    padding-left: 2%;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+.top-line{
+    height: 3px;
+    width: 500px;
+  
+
+    background-color: rgb(247, 7, 151);
+}
+.card-heading h1{
+    font-size: 25px;
+    padding-top: 5%;
+
+}
+.card-para{
+    font-size: 15px;
+    display: flex;
+}
+.task-bar h1{
+    font-size: 20px;
+}
+.task-bar {
+    box-sizing: border-box;
+    width: 100%;
+     display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 5%;
+}
+
+
+.task-icon-line h1{
+    
+    padding-right: 1%;
+    font-size: 20px;
+    float: right;
+    padding-bottom: 10%;
+   
+  
+}
+.task-icon-line {
+    height: 6px;
+    width: 350px;
+    background-color: turquoise;
+   
+}
+.images{
+    margin-top: 3px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+}
+.image{
+    height: 47px;
+    width: 47px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 2px solid rgb(15, 20, 68);
+    border-radius: 64px;
+}
+.image img{
+
+    height: 45px;
+    width: 45px;
+
+    border-radius: 64px;
+
+    object-fit: cover;
+}
