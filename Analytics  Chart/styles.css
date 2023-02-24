@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    cursor: default;
+
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(225, 225, 226);
+}
+.card{
+    height: 50vh;
+    width: 30vw;
+    padding-top: 20px;
+    padding-left: 10px;
+
+
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.054);
+
+}
+.chart{  
+display: grid;
+margin-top: 10%;
+margin-right: 40%;
+grid-template-columns: 60px 325px;
+grid-template-rows: repeat(4, 60px);
+align-items: start;
+justify-items: end;
+column-gap: 10px;
+font-size: 12px;
+font-weight: 400;
+}
+.row {
+    border-top: 2px dashed rgb(223, 223, 223);
+}
+.row-1 {
+    background-color: white;
+    height: 60px;
+    width: 325px;
+}
+.row-2 {
+    background-color: white;
+    height: 60px;
+    width: 325px;
+}
+.row-3 {
+    background-color: white;
+    height: 60px;
+    width: 325px;
+}
+.bottom-row {
+    background-color: white;
+    height: 60px;
+    width: 325px;
+
+    border-bottom: 2px solid rgb(223, 223, 223);}
+.months{
+    margin-top: 5%;
+    margin-right: 20%;
+    display: flex;
+   flex-direction: row;
+    gap: 35px;
+    font-size: 12px;
+    font-weight: 400;
+    justify-content: end;
+    
+}
+.bar{
+    position: absolute; 
+ bottom: 110px;
+
+     border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+   
+    width: 6px;
+  box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.418);
+}
+.jul{
+    height: 220px;
+
+    left: 140px;
+background: linear-gradient(to top, rgb(82, 137, 204) 40%, rgb(60, 201, 201) 40% 70%, rgb(245, 166, 35) 70% 90%, rgb(245, 88, 35) 90%);
+}
+
+.aug {
+    height: 180px;
+  left: 190px;
+  background: linear-gradient(to top, rgb(82, 137, 204) 20%, rgb(60, 201, 201) 20% 65%, rgb(245, 166, 35) 65% 70%, rgb(245, 88, 35) 70%);
+}
+
+.sept {
+    height: 240px;
+  left: 240px;
+   background: linear-gradient(to top, rgb(82, 137, 204) 60%, rgb(60, 201, 201) 60% 75%, rgb(245, 166, 35) 75% 85%, rgb(245, 88, 35) 85%);
+}
+
+.oct {
+    height: 100px;
+
+    left: 290px;
+
+    background: linear-gradient(to top, rgb(82, 137, 204) 70%, rgb(60, 201, 201) 70% 80%, rgb(245, 166, 35) 80% 90%, rgb(245, 88, 35) 90%);
+}
+
+.nov {
+    height: 190px;
+
+    left: 340px;
+
+    background: linear-gradient(to top, rgb(82, 137, 204) 60%, rgb(60, 201, 201) 60% 70%, rgb(245, 166, 35) 70% 95%, rgb(245, 88, 35) 95%);
+}
+
+.dec {
+    height: 210px;
+
+    left: 390px;
+
+    background: linear-gradient(to top, rgb(82, 137, 204) 60%, rgb(60, 201, 201) 60% 70%, rgb(245, 166, 35) 70% 85%, rgb(245, 88, 35) 85%);
+}
