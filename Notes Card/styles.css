@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: rgb(22, 22, 54);
+    display: flex;
+    font-family: sans-serif;
+}
+.container{
+    margin-top: 5%;
+    height: 80vh;
+    width: 50vw;
+    background-color:  rgb(83, 201, 189)
+}
+
+.card{
+    height: 50vh;
+    width: 30vw;
+    background-color: white;
+    margin-top: 10%;
+    margin-left: 20%;
+    box-sizing: border-box;
+    box-shadow: 0px 7px 20px rgba(156, 158, 163, 0.3);
+   
+}
+.cardBar{
+    height: 10vh;
+    width: 30vw;
+    background-color: rgb(196, 241, 237);
+    
+   
+    
+
+}
+.fonts{
+    padding-top: 5%;
+}
+.icons{
+    color: rgb(105, 219, 105);
+    font-size: 30px;
+    display: flex;
+    
+    margin-left: 5%;
+    gap: 20px;
+}
+.icon2{
+    font-size: 30px;
+    float: right;
+    margin-right: 5%;   
+    
+}
+.content p{
+    height: 40vh;
+    width: 30vw;
+    font-size: 22px;
+    margin-top: 10%;
+    display: contents;
+       margin-left: 10%;
+        margin-right: 10%;
+        box-sizing: border-box;
+        justify-content: center;
+        color: gray;
+        
+    
+ 
+}
+.saveButton{
+ 
+    height: 5vh;
+    width: 10vw;
+    margin-top: 5%;
+    margin-left: 30%;
+    background-color: rgb(105, 219, 105);
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 20px;
+ 
+ }
