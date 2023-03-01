@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    cursor: default;
+}
+body{
+    height: 80vh;
+    width: 60vw;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(17, 17, 56);
+    
+
+}
+.container{
+    height: 90vh;
+    width: 70vw;
+    background-color: white;
+    margin-top: 5%;
+    margin-left: 25%;
+    align-items: center;
+    box-sizing: border-box;
+   
+}
+.navbar{
+    height: 10vh;
+    width: auto;
+   
+}
+.navbar ul li{
+list-style: none;
+display: inline-block;
+padding: 10px 20px;
+font-weight: bold;
+font-size: 20px;
+margin-top: 1%;
+
+
+}
+.topbar{
+    display: flex;
+}
+.searchBar{
+    height: 5vh;
+    width: 40vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 5%;
+    margin-left: 10%;
+    text-align: center;
+    color: gray;
+}
+
+.button{
+ 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 5%;
+    margin-left: 25%;
+    border-color: white;
+    border-radius: 10px;
+
+}
+.uploadButton{
+    height: 5vh;
+    width: 25vh;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(32, 32, 32);
+    border-radius: 10px;
+
+
+}
+.images{
+    margin-top: 8%;
+ margin-left: 8%;
+
+ 
+}
+.row{
+    height: 20vh;
+    width: 30vw;
+    display: flex;
+    
+    gap: 10%;
+}
+.column{
+    margin-top: 5%;
+    height: 20vh;
+    width: 30vw;
+    display: flex;
+    gap: 10%;
+}
