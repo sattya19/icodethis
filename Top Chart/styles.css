@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    cursor: default;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    
+}
+.container{
+    height: 80vh;
+    width: 60vw;
+    background-color: whitesmoke;
+    margin-top: 5%;
+    margin-left: 20%;
+}
+.card{
+    height: 70vh;
+    width: 40vw;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-left: 18%;
+
+
+}
+.heading{
+    font-size: 15px;
+     display: flex;
+    height: 20vh;
+    width: auto;
+    background-color: rgb(243, 97, 122);
+ 
+   
+}
+.icon{
+    font-size: 30px;
+    margin-left: 20%;
+    margin-top: 2%;
+    color: white;
+}
+.tittle{
+  margin-left: 2%;
+  margin-top: 2%;
+  color: white;
+
+}
+
+.crd h2{
+    margin-top: 5%;
+ background-color: whitesmoke;
+   font-size: 20px;
+   
+   height: 2vh;
+   width: 1vw;
+   border-radius: 50%;
+}
+.crd{
+    height: 10vh;
+    width: auto;
+    background-color: white;
+ margin: 20px 20px 20px;
+    margin-top: 2%;
+    display: flex;
+}
+
+
+.songName{
+    margin-left: 5%;
+    margin-right: 10%;
+    font-size: 15px;
+   
+}
+.listen{
+    color: gray;
+    font-size: 20px;
+display: end;
+margin-right: 2%;
+
+}
+
+.card image{
+   
+    height: 20px;
+    width: 20px;
+
+    object-fit: cover;
+
+
+
+   
+}
+.image img{
+
+    height: 100px;
+    width: 100px;
+
+  margin-left: 5%;
+
+    object-fit: cover;
+}
+
+@media screen and ( max-width: 50vw) {
+    body {
+        width: 50vw;
+        height: 50vh;
+        font-size: 10px;
+    }
+    .crd{
+        max-width: auto;
+        font-size: 10px;
+
+    }
+  }
+  @media screen and ( max-height: 50vw){
+
+    .crd{
+        max-height: 35vh;
+        
+    }
+    body{
+        font-size: 5px;
+    }
+   
+  }
