@@ -12,21 +12,13 @@ body{
     box-sizing: border-box;
     
 }
-.container{
-     height: 80vh;
-    width: 60vw;
-    background-color: whitesmoke;
-    margin-top: 5%;
-    margin-left: 20%;
-    position: relative;
 
-}
 .card{
    height: 70vh;
     width: 40vw;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin-left: 16%;
+    margin-left: 20%;
 top: 14%;
     position: absolute;
      transition: all 0.4s;
