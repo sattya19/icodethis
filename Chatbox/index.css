@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    cursor: default;
+}
+body{
+    height: 100vh;
+    width: 80vw;
+    background-color: rgb(16, 24, 47);
+    box-sizing: border-box;
+}
+.container{
+    height: 80vh;
+    width: 60vw;
+    position: relative;
+    background-color: rgb(34, 32, 61);
+    margin-top: 5%;
+    margin-left: 25%;
+}
+.card{
+    position: absolute;
+    height: 50vh;
+    width: 18vw;
+    background-color: white;
+    margin-top: 8%;
+    margin-left: 30%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.info{
+    height: 8vh;
+    width: auto;
+    background-color: #f0695a;
+    border-radius:  10px 10px 0px 0px;
+    position: relative;
+    display: flex;
+    gap: 20px;
+   
+}
+.heading h1{
+    font-size: 12px;
+    color: white;
+    margin-top: 40%;
+    
+
+
+   
+}
+.chat{
+    height: 30vh;
+    width: auto;
+    background-color: rgb(27, 26, 49);
+  
+}
+.box{
+    height: 8vh;
+    width: 10vw;
+    color: white;
+    background-color: rgb(48, 46, 83) ;
+    margin-top: 10%;
+    margin-left: 2%;
+    border-radius: 5px;
+}
+.box h2{
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+}
+.content{
+    display: flex;
+}
+.footer{
+    height: 15vh;
+    width: auto;
+    background-color: rgb(48, 46, 83) ;
+    color: white;
+    font-size: 10px;
+    border-radius:  0px 0px 10px 10px;
+    text-align: center;
+    position: relative;
+
+  
+}
+.footer p{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.images{
+   
+    display: flex;
+   
+}
+.image{
+    
+  
+    height: 28px;
+    width: 28px;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
+
+   
+    border-radius: 52px;
+}
+.image img{
+    padding-top: 10%;
+    height:25px;
+    width: 25px;
+    border: 1px solid white;
+    border-radius: 50px;
+
+    object-fit: cover;
+}
+.chat .image  {
+    position: relative;
+    margin-left: 10%;
+  
+
+}
+
+.agree{
+    position: absolute;
+   left: 5%;
+   margin-top: 15%;
+    height: 4vh;
+    width: 6vw;
+   background-color:rgb(48, 46, 83);
+   color: #f7786b;
+  border-radius: 20px;
+   text-align: center;
+   border: 2px solid #f7786b;
+}
+.icon{
+    font-size: 20px;
+    color: white;
+    margin-left: 90%;
+    margin-top: 4%;
+    height: 4vh;
+    width: 2vw;
+    border-radius: 60%;
+    background-color: #f7786b;
+    text-align: center;
+}
