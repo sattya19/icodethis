@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    cursor: default;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: rgb(33, 33, 59);
+    
+}
+.container{
+    height: 85vh;
+    width: 60vw;
+    background-color: rgb(245, 229, 233);
+    margin-top: 3%;
+    margin-left: 20%;
+    display: flex;
+    position: relative;
+}
+.card{
+    height: 55vh;
+    width: 45vw;
+    background-color: white;
+    margin-left: 10%;
+    position: absolute;
+    margin-top: 10%;
+    
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+   
+}
+.left-col{
+    height: 55vh;
+    
+}
+.heading h1{
+ font-size: 20px;
+ margin-bottom: 3%;
+
+}
+.heading{
+    margin-top: 10%;
+    margin-left: 10%;
+    font-size: 10px;
+    
+}
+.textbox{
+    margin-left: 10% ;
+    margin-top: 5%;
+}
+#text{
+    height: 4vh;
+    width: 18vw;
+}
+.options{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 10%;
+
+}
+.text{
+    font-size: 10px;
+    color: #2aaefa;
+}
+.next{
+    height: 5vh;
+    width: 6vw;
+    text-align: center;
+    background-color: #2aaefa;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 28%;
+    color: white;
+}
+.login .text{
+    margin-top: 10%;
+    margin-left: 35%;
+    color: gray;
+}
+.button{
+    display: flex;
+}
+.btn{
+    height: 5vh;
+    width: 8vw;
+    margin-top: 5%;
+    margin-left: 10%;
+    border: 1px solid gray;
+    display: flex;
+}
+.btn .text{
+    color: black;
+    font-size: 15px;
+margin-left: 2%;
+}
+
+.icon{
+    font-size: 20px;
+    margin-left: 10%;
+    margin-top: 8%;
+}
+.footer .text{
+    margin-top: 5%;
+    margin-left: 20%;
+    color: gray;
+}
+.footer span{
+    color: #2aaefa;
+}
+.image img{
+    height: 55vh;
+    width: 250px;
+   object-fit: cover;
+   overflow: hidden;
+}
