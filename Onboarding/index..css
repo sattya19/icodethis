@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: default;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+}
+.onboarding{
+       height: 70vh;
+       width: 23vw;
+       background-color: white;
+       border-radius: 20px;
+       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.heading{
+    margin-top: 10%;
+    margin-left: 10%;
+    display: flex;
+    gap: 80px;
+}
+.heading h1{
+    font-size: 20px;
+}
+.label{
+    margin-top: 5%;
+    margin-left: 10%;
+    font-size: 12px;
+    
+}
+.bar{
+    gap: 10px;
+    margin-top: 8%;
+    display: flex;
+    margin-left: 10%;
+}
+.percentage{
+    font-weight: bold;
+}
+.progressBar{
+    height: 2vh;
+    width: 15vw;
+    background-color: gray;
+    border-radius: 20px;
+}
+.content{
+    height: 2vh;
+    width: 10vw;
+    background-color: black;
+    border-radius: 20px;
+
+}
+.line{
+    margin-top: 5%;
+    height: 0.1vh;
+    width: 23vw;
+  background-color: gray;
+
+  margin-top: 10%;
+}
+.radio-buttons{
+    display:grid;
+    margin-top: 3%;
+    margin-left: 10%;
+
+    font-size: 15px;
+}
+
+.btns{
+   margin-top: 8%;
+}
+.footer{
+    margin-top: 10%;
+    margin-left: 10%;
+    color: gray;
+}
