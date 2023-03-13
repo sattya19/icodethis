@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    cursor: default;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color:  rgb(1, 1, 24);
+    color: white;
+}
+.card{
+    height: 80vh;
+    width: 28vw;
+    background-color: rgb(37, 35, 77);
+    border-radius: 10px;
+}
+.heading{
+    font-size: 10px;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.searchBar{
+    margin-top: 5%;
+    margin-left: 10%;
+
+    
+   
+}
+.text{
+    height: 5vh;
+    width: 20vw;
+    background-color: rgb(37, 35, 77);
+
+}
+.btns{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 10%;
+    gap: 10px;
+   
+}
+.btn{
+    height:5vh;
+    width:auto;
+    padding: 2px 10px 2px 10px;
+    background-color: rgb(1, 1, 24);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    font-size: 10px;
+    color: gray;
+    border-radius: 5px;
+    font-weight: 400;
+   
+}
+.btn:hover{
+background-color: rgb(159, 79, 235);
+color: white;
+}
+.button{
+ 
+    display: flex;
+    margin-top: 5%;
+    margin-left: 10%;
+    gap: 10px;
+
+}
+.review{
+    height: 20vh;
+    width: 20vw;
+    background-color:  rgb(1, 1, 24);
+    margin-top: 15%;
+    margin-left: 10%;
+    border-radius: 5px;
+    position: relative;
+}
+
+.header{
+    position: absolute;
+    font-size: 8px;
+    margin-top: 10%;
+    margin-left: 10%;
+    display: flex;
+    gap: 20px;
+}
+.icon{
+    font-size: 10px;
+}
+.content{
+    position: absolute;
+    margin-top: 20%;
+    font-size: 8px;
+    margin-left: 10%;
+    display: flex;
+    margin-right: 5%;
+}
+.icon{
+    color: yellow;
+}
+
+.label{
+    margin-left: 10%;
+    position: absolute;
+    margin-top: 30%;
+    font-size: 10px;
+    display: flex;
+    gap: 120px;
+    color: gray;
+  
+}
+.share{
+    height: 2vh;
+    width: auto;
+   
+}
