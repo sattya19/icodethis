@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    cursor: default;
+    font-family: sans-serif;
+}
+.body{
+    height: 100vh;
+    width: 100vw;
+    background-color: aliceblue;
+}
+.bg{
+  height: 90vh;
+  width: 15vw;
+  background-color: #ee2d2a;
+  margin-top: 2%;
+  border-radius: 0px 20px 20px 0px;
+  position: absolute;
+}
+.main{
+    position: relative;
+    height: 70vh;
+    width: 100vw;
+    background-color: white;
+    position: absolute;
+    margin-top: 5%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px rgb(13, 13, 14);
+    display: flex;
+}
+.sidebar{
+    height: 70vh ;
+    width: 20vw;
+    background-color: aliceblue;
+}
+.profile{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 5%;
+    gap: 5%;
+}
+.name{
+    font-size: 12px;
+}
+.image img{
+
+    height: 60px;
+    width: 60px;
+   
+    object-fit: cover;
+    border-radius: 10px;
+}
+.icons ul{
+    margin-top: 10%;
+    margin-left: 5%;
+ 
+    list-style: none;
+}
+.icons ul li{
+    margin-top: 5%;
+    display: flex;
+    gap: 20px;
+    font-weight: bold;
+    color: gray;
+}
+.heading{
+    margin-top: 5%;
+    color: rgb(1, 1, 18);
+    margin-left: 5%;
+}
+
+.history{
+    color: black;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.label{
+    font-size: 15px;
+    color: gray;
+}
+.table{
+    height: 30vh;
+    width: 60vw;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    
+}
+.table th{
+    height: 5vh;
+    width: 20vw;
+    color: gray;
+
+}
+.table td{
+    height: 5vh;
+    width: 20vw;
+
+    justify-content: center;
+    text-align: center;
+  
+   
+
+}
+.plan{
+    height: 25vh;
+    width: 20vw;
+    background-color: #ee2d2a;
+    border-radius: 20px;
+    justify-content: center;
+    color: white;
+    margin-top: 5%;
+   
+}
+.plan .label{
+  padding-top: 10%;
+  margin-left: 10%;
+  color: white;
+}
+.plan h1{
+    margin-left: 10%;
+}
+.load{
+    color: #ee2d2a;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-left: 5%;
+}
+.cancel{
+    margin-top: 5%;
+    margin-left: 8%;
+    height: 5vh;
+    width: 15vw;
+    background-color: #ee2d2a;
+    border: 2px solid white ;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
