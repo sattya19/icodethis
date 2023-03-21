@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    cursor: default;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aliceblue;
+}
+.heading{
+ margin-top: 5%;
+ margin-left: 40%;
+ font-size: 20px;
+}
+.searchBar{
+    height: 10vh;
+    width: 40vw;
+    margin-top: 5%;
+    margin-left: 25%;
+   display: flex;
+    border-radius: 30px;
+   gap: 20px;
+    border: 1px solid gray;
+    font-size: 20px;
+}
+.icon{
+    margin-left: 5%;
+    margin-top: 4%;
+    color: gray;
+}
+.text{
+
+    margin-top: 4%;
+    font-weight: bold;
+    color: gray;
+}
+.content{
+    height: 90vh;
+    width: 80vw;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-rows: repeat(4,1fr);
+    grid-gap: 1rem;
+    margin-left: 10%;
+    margin-top: 5%;
+  
+}
+ 
+
+.box{
+    
+    height: 10vh;
+    width: 15vw;
+    transition: all 0.4s;
+text-align: center;
+font-weight: bold;
+ 
+   
+
+}
+.box:hover{
+    transform: scale(1.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
