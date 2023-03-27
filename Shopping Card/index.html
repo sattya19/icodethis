@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Card</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="bg-[#1a193b] flex justify-center items-center min-h-screen p-4">
+    <div class="content h-96 w-2/3 mt-20 ml-24 flex overflow-x-hidden">
+      <div class="left h-96 w-1/3 bg-slate-200">
+        <div class="picture mt-4 ml-4 mr-4 shadow-md rounded-2xl">
+          <img
+            src="https://silvawebdesigns.com/wp-content/uploads/2020/10/useful-sass-scss-mixins-for-every-website.jpg"
+          />
+        </div>
+        <div class="heading flex text-blue mt-4 m-4">
+          <div class="course">Course for beginner to advanced</div>
+          <div class="price">$19.99</div>
+        </div>
+      </div>
+      <div class="right h-96 w-2/3 bg-[#1e2137]">
+        <div class="text-white mt-4 ml-12">
+          <h1>Total $400.12</h1>
+          <input
+            class="name text-black bg-[#1e2137] mt-8 border-y-rose-50"
+            placeholder="email address"
+          />
+          <div class="border border-y-rose-100 mr-8"></div>
+          <input
+            class="name text-black bg-[#1e2137] mt-8 border-y-rose-50"
+            placeholder="full name"
+          />
+          <div class="border border-y-rose-100 mr-8"></div>
+          <input
+            class="name text-black bg-[#1e2137] mt-8 border-y-rose-50"
+            placeholder="card number"
+          />
+          <div class="border border-y-rose-100 mr-8"></div>
+          <div class="bar flex mt-4">
+            <div class="bar-1">
+              <input
+                class="name text-black bg-[#1e2137] mt-4 border-y-rose-50"
+                placeholder="mm/y"
+              />
+              <div class="border border-y-rose-100 mr-16"></div>
+            </div>
+            <!-- <div class="bar-2">
+                        <input
+                class="name text-black bg-blue-900 mt-4 border-y-rose-50"
+                placeholder="cvc"
+              />
+                        <div class="border border-y-rose-100 mr-2"></div> -->
+          </div>
+          <input type="checkbox" id="checkbox1 " />
+          save card?
+        </div>
+        <label class="footer text-black mt-8 ml-16"
+          >your card will charged with $9.9</label
+        >
+        <button
+          class="btn h-10 w-72 bg-gradient-to-r from-sky-500 to-indigo-500 rounded shadow-md mt-4 ml-4"
+        >
+          PAY
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
