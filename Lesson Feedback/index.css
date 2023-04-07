@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+.btn{
+    height: 8vh;
+    width: 10vw;
+    background-color: rgb(83, 83, 233);
+    border-radius: 5px;
+    font-weight: bold;
+}
+.opt{
+   border: 1px solid gray;
+   font-weight: bold;
+}
