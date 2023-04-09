@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    cursor: default;
+    font-family: sans-serif;
+    background-color: black;
+    color: gray;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(70, 70, 70);
+  display: flex;
+}
+.container{
+    height: 80vh;
+    width: 80vw;
+    /* background-color: rgb(38, 37, 37); */
+    border-radius: 20px;
+}
+.heading{
+    margin-top: 2%;
+    margin-left: 5%;
+}
+.label{
+    margin-left: 5%;
+}
+.product{
+    display: flex;
+}
+.image img{
+    height: 300px;
+    width: 200px;
+   margin-left: 150%;
+
+}
+.about{
+    margin-top: 2%;
+    margin-left: 20%;
+}
+.heading{
+    font-size: 40px;
+}
+.price{
+    font-size: 30px;
+    margin-top: 20%;
+    margin-left: 5%;
+}
+.arrow{
+ 
+
+    margin-top: 10%;
+    font-size: 30px;
+    margin-left: 2%;
+}
+.tittle{
+    margin-top: 30%;
+}
+.color{
+    display: flex;
+    margin-top: 5%;
+    gap: 20px;
+   
+}
+.blue{
+  
+    height: 6vh;
+    width: 3vw;
+    border-radius: 50%;
+    background-color: blue;
+}
+.black{
+  
+    height: 6vh;
+    width: 3vw;
+    border-radius: 50%;
+    background-color: gray;
+}
+.brown{
+  
+    height: 6vh;
+    width: 3vw;
+    border-radius: 50%;
+    background-color: brown;
+}
+.button{
+    height: 8vh;
+    width: 12vw;
+    background-color: gray;
+    color: black;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
