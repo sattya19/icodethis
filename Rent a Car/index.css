@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    cursor: default;
+    font-family: sans-serif;
+}
+body{
+
+    box-sizing: border-box;
+    height: 60vh;
+    width: 80vh;
+    background-color: blanchedalmond;
+    position: absolute;
+}
+
+
+.yellow{
+    height: 50vh;
+    width: 20vw;
+    background-color: rgb(236, 153, 81);
+ margin-top: 5%;
+ margin-left: 50%;
+    border-radius: 30px;
+    position: absolute;
+}
+.orange{
+    height: 40vh;
+    width: 15vw;
+    background-color: rgb(244, 115, 69);
+margin-top: 70%;
+margin-left: 150%;
+ border-radius: 30px;
+ position: absolute;
+
+  
+}
+.card{
+    margin-top: 20%;
+    position: relative;
+    height: 70vh;
+    width: 40vw;
+    border-radius: 30px;
+    background-color: white;
+    margin-left: 70%;
+}
+.heading{
+    font-size: 15px;
+    color: rgb(1, 1, 19);
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.input{
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 20%;
+}
+.button{
+    height: 10vh;
+    width: 20vw;
+    background-color: rgb(244, 115, 69);
+    position: absolute;
+    margin-top: 60%;
+    margin-left:25%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+}
