@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    cursor: default;
+    font-family: sans-serif;
+}
+.circle{
+    height: 8vh;
+    width: 4vw;
+text-align: center;
+text-justify: center;
+color: gray;
+font-weight: bold;
+
+
+    border-radius: 50%;
+}
+.line{
+    height: 0.5vh;
+    width: 10vw;
+   background-color: rgb(147, 147, 147);
+}
