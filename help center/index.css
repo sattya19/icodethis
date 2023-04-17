@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    cursor: default;
+    font-family: sans-serif;
+}
+body{
+    height: 80vh;
+    width: 100vw;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.container{
+ justify-content: center;
+ align-items: center;
+height: 50vh;
+width: 40vw;
+
+}
+.heading{
+    font-size: 8px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5%;
+
+}
+.search{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+   
+}
+input{
+    height: 6vh;
+    width: 30vw;
+    border: 2px solid white;
+    cursor: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.options{
+justify-content: center;
+align-items: center;
+margin-left: 13%;
+
+margin-top: 8%;
+ 
+}
+.option{
+    margin-top: 3%;
+    height: 6vh;
+    width: 30vw;
+   color: gray;
+
+
+
+}
+.option:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+tittle{
+    margin-left: 5%;
+   
+}
+icon{
+    margin-left: 90%;
+   color: gray;
+}
+.line{
+    height: 0.2vh;
+ width: 30vw;
+    background-color: gray;
+}
+.images{
+display: flex;
+gap: 40px;
+    margin-left: 10%;
+
+}
+.image{
+    margin-top: 5%;
+    height: 18vh;
+    width: 9vw;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.images img{
+
+    height: 80px;
+    width: 120px;
+    border-radius: 10px 10px 0px 0px;
+
+}
