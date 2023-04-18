@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.content{
+    background-color: rgb(21, 20, 45);
+    color: white;
+}
+.card{
+    background-color: rgb(31, 30, 69);
+}
+button{
+    background-color: blueviolet;
+}
+.icon i{
+    color: yellow;
+}
+.footer{
+    color: gray;
+}
