@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Virtual Keyboard</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+  </head>
+  <body>
+    <input type="text" id="input-field" readonly />
+
+    <div id="keyboard">
+      <div class="row">
+        <button class="key" onclick="appendCharacter('q')">Q</button>
+        <button class="key" onclick="appendCharacter('w')">W</button>
+        <button class="key" onclick="appendCharacter('e')">E</button>
+        <button class="key" onclick="appendCharacter('r')">R</button>
+        <button class="key" onclick="appendCharacter('t')">T</button>
+        <button class="key" onclick="appendCharacter('y')">Y</button>
+        <button class="key" onclick="appendCharacter('u')">U</button>
+        <button class="key" onclick="appendCharacter('i')">I</button>
+        <button class="key" onclick="appendCharacter('o')">O</button>
+        <button class="key" onclick="appendCharacter('p')">P</button>
+      </div>
+      <div class="row">
+        <button class="key" onclick="appendCharacter('a')">A</button>
+        <button class="key" onclick="appendCharacter('s')">S</button>
+        <button class="key" onclick="appendCharacter('d')">D</button>
+        <button class="key" onclick="appendCharacter('f')">F</button>
+        <button class="key" onclick="appendCharacter('g')">G</button>
+        <button class="key" onclick="appendCharacter('h')">H</button>
+        <button class="key" onclick="appendCharacter('j')">J</button>
+        <button class="key" onclick="appendCharacter('k')">K</button>
+        <button class="key" onclick="appendCharacter('l')">L</button>
+      </div>
+      <div class="row">
+        <button class="key" onclick="upWard()">
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
+        <button class="key" onclick="appendCharacter('z')">Z</button>
+        <button class="key" onclick="appendCharacter('x')">X</button>
+        <button class="key" onclick="appendCharacter('c')">C</button>
+        <button class="key" onclick="appendCharacter('v')">V</button>
+        <button class="key" onclick="appendCharacter('b')">B</button>
+        <button class="key" onclick="appendCharacter('n')">N</button>
+        <button class="key" onclick="appendCharacter('m')">M</button>
+      </div>
+      <div class="row">
+        <button class="key" onclick="appendCharacter(' ')">Space</button>
+        <button class="key" onclick="backspace()">Backspace</button>
+        <button class="key cross" onclick="clearInput()">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/885853d9e4.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

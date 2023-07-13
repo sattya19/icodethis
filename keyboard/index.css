@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #1665BE;
+  }
+  
+  #keyboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #283693;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px rgb(13, 13, 14);
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .key {
+    padding: 10px 10px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #24307E;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  .cross{
+    padding: 10px 20px;
+    background-color:#F30258;
+  }
+  #input-field {
+    width: 300px;
+    height: 40px;
+    font-size: 16px;
+    padding: 5px;
+    margin-bottom: 20px;
+  }
+  
